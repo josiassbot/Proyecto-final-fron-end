@@ -31,7 +31,7 @@ li>a {
 }
 
 ul li a:hover {
-    background: rgb(230, 239, 240);
+    color:#F3603B;
 }
 
 #buttom {
@@ -49,10 +49,10 @@ ul li a:hover {
     cursor: pointer;
 }
 
-.fifa{
+.fifa {
     display: flex;
     align-items: center;
-    
+
 }
 
 /*seccion principal */
@@ -123,7 +123,6 @@ h1 {
     position: absolute;
     left: 48%;
     right: 10.14%;
-    top: 12.07%;
     bottom: 75.03%;
     margin: 10px;
 }
@@ -134,6 +133,12 @@ h1 {
     padding-top: 150px;
     display: flex;
     margin: 0px 130px;
+    padding: auto;
+
+}
+
+.separacion {
+    padding: 40px;
 }
 
 h2 {
@@ -159,19 +164,15 @@ h2 {
 
 /* lista de opciones */
 
-.columna3 {
-    display: flex;
-    flex-direction: column;
-    border-color: red (5, 2)
-}
-
 .text-principal {
+    display: flex;
     color: #323851;
     font-size: 18px;
     font-weight: bold;
+    align-items: center;
 }
 
-#bottom-num{
+#bottom-num {
     padding: 10px;
     width: 80px;
     height: 44px;
@@ -198,6 +199,17 @@ div>span {
     letter-spacing: -0.01em;
 }
 
+.ajustar {
+    display: flex;
+    justify-content: flex-start;
+    align-items: baseline;
+    gap: 20px;
+}
+
+.ajustar2 {
+    margin-left: 100px;
+}
+
 
 
 /* cards */
@@ -207,19 +219,17 @@ h3 {
     color: #242E53;
     display: flex;
     justify-content: center;
+    margin-bottom: 10%;
 }
 
 .cards-nav {
     display: flex;
     align-items: center;
     padding-bottom: 120px;
-
-
 }
 
 
 .cards {
-
     display: flex;
     justify-content: flex-start;
     background-color: #FAFAFA;
@@ -228,7 +238,6 @@ h3 {
     flex-direction: column;
     align-items: center;
     height: 180px;
-
 }
 
 .fotos {
@@ -256,6 +265,20 @@ h4 {
     text-decoration: none;
     color: #FFFFFF;
 }
+
+.cards-nav div>p {
+    color: #B9B9C1;
+    width: 390px;
+    height: 78px;
+    font-family: 'Be Vietnam Pro', sans-serif;
+    font-style: normal;    
+    font-size: 16px;
+    line-height: 156.6%;
+    display: flex;
+    align-items: center;
+    text-align: center;
+}
+
 
 
 /* final footer barra-naranja*/
@@ -340,14 +363,17 @@ h4 {
     flex-direction: column;
     flex-direction: row;
     margin: 8px;
-
+    cursor: pointer;
 }
 
 #list-final ul>li {
     margin: 20px 40px;
     list-style-type: none;
-
 }
+ ul li >a {
+    text-decoration: none;
+    cursor: pointer;
+} 
 
 .formulario-final {
     display: flex;
@@ -411,6 +437,7 @@ footer div>p {
         flex-direction: column;
         flex-direction: row;
         margin: 10px;
+        cursor: pointer;
 
     }
 
