@@ -49,26 +49,23 @@ ul li a:hover {
     cursor: pointer;
 }
 
-.fifa {
-    display: flex;
-    align-items: center;
-
-}
 
 /*seccion principal */
 
 .seccionprincipal {
     padding-top: 80px;
     display: flex;
-    margin: 0 80px;
-
+    margin: 0 100px;
+    
 }
 
-.columna1 {
+/*
+.seccionprincipal > .columna1 {
     display: flex;
     justify-content: center;
     flex-direction: column;
 }
+*/
 
 h1 {
     width: 439px;
@@ -123,7 +120,9 @@ h1 {
     border-radius: 0px;
     display: flex;
     flex-direction: column;
+    /*
     position: absolute;
+    */
     left: 48%;
     right: 10.14%;
     bottom: 75.03%;
@@ -420,7 +419,20 @@ footer div>p {
 
 
 /*header */
+body {
+    margin: 0%;
+    font-family: 'Be Vietnam Pro', sans-serif;
+    background-color: #F3603B;
+}
 
+main{
+    background-color: blue;
+    justify-content: center;
+
+    /*
+    width: 100%;
+*/
+}
     nav {
         display: none;
     }
@@ -428,15 +440,53 @@ footer div>p {
         display: none;
      }
 
-    header main {
-        display: block;
-    }
+     /* seccion principal */ 
 
-
-
-     .seccionprincipal .columna1 .img {
+     .seccionprincipal{
         display: flex;
+        flex-direction: column-reverse;
+        padding-bottom: 100px;
+        justify-content: space-between;
+     }
+
+     .img{
+        display:flex;   
+        height: 700px;
+        width: 850px;
+    
+     }
+
+     .columna1{
+        margin-left: 90px;
+        justify-content: space-between;
+        text-align:center;
+     }
+
+     .buttom2{
+        margin-left: 180px;
+     }
+
+     /* seccion secundaria */ 
+
+     .seccionsecundaria{
         flex-direction: column;
+        align-items: flex-start;
+
+     }
+    }
+/*
+     .separacion{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    
+    
+     }
+    }
+/*
+     .seccionprincipal >.img{
+        height: 300px;
+        padding-left: 20px;
      }
 
 }
@@ -473,5 +523,4 @@ footer div>p {
     #list-final ul>li {
         margin: 10px 20px;
     }
-    */
-
+    *
